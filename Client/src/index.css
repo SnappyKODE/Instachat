@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Anta", sans-serif;
+    background-color: #1c1c1c;
+}
+
+nav{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+    height: 100px;
+    align-items: center;
+}
+
+.logo{
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+#userForm{
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#userInfo{
+    margin-bottom: 20px;
+    color: white;
+}
+
+#userInfo>div{
+    padding: 5px 15px;
+    background-color: #126631;
+    border-radius: 15px;
+    width: auto;
+}
+
+#userName{
+    width: 20%;
+    border-radius: 6px;
+    height: 30px;
+    font-size: 1.3rem;
+    font-family: "Anta", sans-serif;
+    padding: 5px;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove{
+    display: none;
+}
+
+.container{
+    max-width: 825px;
+    margin: auto;
+    background-color: #292929;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    max-height: 60vh;
+    min-height: 50vh;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(169, 168, 168);
+}
+
+.message{
+    background-color: rgb(188, 185, 185);
+    width: auto;
+    max-width: 35%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 12px;
+    overflow-wrap: break-word;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.UserName{
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: 0;
+    border-bottom: 2px solid white;
+}
+
+.left{
+    float: left;
+    clear: both;
+    border-top-left-radius: 0;
+    background-color: rgb(63, 63, 63);
+}
+
+.right{
+    float: right;
+    clear: both;
+    border-top-right-radius: 0;
+    background-color: #126631;
+}
+
+.center{
+    display: block;
+    width: 100%;
+    clear: both;
+    background-color: rgb(63, 63, 63);
+    color: rgb(165, 164, 164);
+    margin: 5px auto;
+    text-align: center;
+}
+
+#sent-container{
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+#messageInp{
+    width: 45%;
+    border-radius: 6px;
+    border: 2px solid black;
+    height: 34px;
+    font-size: 1.3rem;
+    font-family: "Anta", sans-serif;
+    padding: 5px;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #126631;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn > svg{
+    height: 25px;
+    width: 25px;
+    fill: white;
+    margin-left: 2px;
+}
+
+@media (hover: hover), (-ms-high-contrast:none) {
+    .btn:hover{
+        box-shadow: 0 0 10px 5px #12663181;
+    }
+}
