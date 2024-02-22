@@ -7,6 +7,9 @@
   "version": "1.0.0",
   "description": "server for chat app",
   "main": "index.js",
+    "scripts": {
+    "start": "node index.js"
+  },
   "author": "Kartikey khanna",
   "license": "MIT",
   "type": "module"
