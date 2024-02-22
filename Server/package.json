@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "socket.io": "^4.7.4",
+    "yarn": "^1.22.21"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for chat app",
+  "main": "index.js",
+  "author": "Kartikey khanna",
+  "license": "MIT",
+  "type": "module"
+}
